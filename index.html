@@ -4,6 +4,8 @@
         <meta charset="UTF-8"/>
         <meta name="Web Studio" content="Effective Solutions
 for Your Business">
+<meta name="viewport" 
+content="width=device-width, initial-scale=1.0" />
 <title>Web-Studio--Version-5.0</title>
     <link 
     rel="stylesheet" 
@@ -36,12 +38,12 @@ for Your Business">
                     </li>
                     <li>
                         <a class="nav-link"
-                        href="">Portfolio
+                        href="./index.html">Portfolio
                         </a>
                     </li>
                     <li>
                         <a class="nav-link"
-                        href="">Contacts
+                        href="./index.html">Contacts
                         </a>
                     </li>
                 </ul>
@@ -60,7 +62,86 @@ for Your Business">
             </li>
             </ul>
             </address>
+            <button class="burger-btn" type="button" data-menu-open>
+                <a class="" href="#">
+                    <svg class="burger-icon" width="24" height="24">
+                        <use href="./images/icons.svg#burger-icon"></use>
+                    </svg>
+                </a>
         </div>
+<!-- #region mobile menu -->
+        <div class="mobile-menu" data-menu>
+        <div class="container mobile-menu-container">
+    
+            <button class="close-mobile-menu" type="button" data-menu-close>
+                <svg class="close-mobile-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-close-mobile"></use>
+                </svg>
+            </button>
+            <nav class="mobile-nav">
+                 <ul class="mobile-menu-list"> 
+                    <li>
+                        <a class="nav-link-mobile" href="./index.html">Studio</a>
+                    </li>
+                    <li>
+                        <a class="nav-link-mobile" href="./index.html">Portfolio
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link-mobile" href="./index.html">Contacts
+                        </a>
+                    </li>
+                    </ul>
+                    </nav>
+                 
+                <address class="contact-address-mobile">
+                    <ul class="contact-info-mobile">
+                        <li class="message-mobile">
+                            <a class="contact-message-mobile" href="tel:+110001111111">+11 (000) 111-11-11
+                            </a>
+                        </li>
+                        <li class="message-mobile">
+                            <a class="contact-message-mobile" href="mailto:info@devstudio.com">info@devstudio.com 
+                         </a>
+                        </li>
+                    </ul>
+                </address>
+                <div class="popup-mobile-icon">
+                    <ul class="mobile-networks">
+                        <li class="mobile-social-networks">
+                            <a class="mobile-networks-link" href="#">
+                                <svg class="mobile-logo-link" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-instagram-2"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="mobile-social-networks">
+                            <a class="mobile-networks-link" href="#">
+                                <svg class="mobile-logo-link" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="mobile-social-networks">
+                            <a class="mobile-networks-link" href="#">
+                                <svg class="mobile-logo-link" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-facebook-1"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="mobile-social-networks">
+                            <a class="mobile-networks-link" href="#">
+                                <svg class="mobile-logo-link" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-linkedin-1"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+    <script src="./js/menu.js" defer></script>
+    <!-- #endregion mobile menu -->
         </header>
         <!-- #endregion header -->
 
@@ -78,7 +159,7 @@ for Your Business">
      <!-- #endregion hero -->
 
  <!-- #region benefits -->
-    <section class="benefits">
+    <section class="benefits hidden">
         <div class="container">
             <h2 class="visually-hidden">Our Values</h2>
             <ul class="strategy-list-section">
@@ -138,7 +219,7 @@ for Your Business">
 <!-- endregion benefits -->
 
 <!--#region team-->
-<section class="title-isteam-section">
+<section class="title-isteam-section hidden">
     <div class="container">
         <h2 class="heading-workers">Our Team</h2>
         <ul class="title-list">
@@ -301,7 +382,7 @@ for Your Business">
 <!-- #endregion team -->
 
 <!-- #region portfolio -->
-<section class="portfolio-section">
+<section class="portfolio-section hidden">
 
     <div class="container">
 
@@ -411,7 +492,7 @@ for Your Business">
 <!-- #endregion portfolio -->
 
 <!-- #region footer -->
-<footer class="footer-background">
+<footer class="footer-background hidden">
     <div class="container-footer">
         <div class="logo-paragraph">
             <a class="footer-logo" href="./index.html">Web<span class="text-raleway-footer">Studio</span></a>
@@ -476,7 +557,7 @@ for Your Business">
 <!-- #endregion footer -->
 
 <!-- #region popup -->
-<div class="backdrop hide-popup">
+<div class="backdrop hidden">
     <div class="popup-review">
         <button class="close-popup" type="button">
             <svg class="close-popup-icon" width="8" height="8">
