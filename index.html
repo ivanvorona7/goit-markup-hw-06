@@ -65,7 +65,7 @@ content="width=device-width, initial-scale=1.0" />
             <button class="burger-btn" type="button" data-menu-open>
                 <a class="" href="#">
                     <svg class="burger-icon" width="24" height="24">
-                        <use href="./images/icons.svg#burger-icon"></use>
+                        <use href="./images/icon/icons.svg#burger-icon"></use>
                     </svg>
                 </a>
         </div>
@@ -75,7 +75,7 @@ content="width=device-width, initial-scale=1.0" />
     
             <button class="close-mobile-menu" type="button" data-menu-close>
                 <svg class="close-mobile-icon" width="24" height="24">
-                    <use href="./images/icons.svg#icon-close-mobile"></use>
+                    <use href="./images/icon/icons.svg#icon-close-mobile"></use>
                 </svg>
             </button>
             <nav class="mobile-nav">
@@ -111,28 +111,28 @@ content="width=device-width, initial-scale=1.0" />
                         <li class="mobile-social-networks">
                             <a class="mobile-networks-link" href="#">
                                 <svg class="mobile-logo-link" width="24" height="24">
-                                    <use href="./images/icons.svg#icon-instagram-2"></use>
+                                    <use href="./images/icon/icons.svg#icon-instagram-2"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="mobile-social-networks">
                             <a class="mobile-networks-link" href="#">
                                 <svg class="mobile-logo-link" width="24" height="24">
-                                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                                    <use href="./images/icon/icons.svg#icon-twitter-1"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="mobile-social-networks">
                             <a class="mobile-networks-link" href="#">
                                 <svg class="mobile-logo-link" width="24" height="24">
-                                    <use href="./images/icons.svg#icon-facebook-1"></use>
+                                    <use href="./images/icon/icons.svg#icon-facebook-1"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="mobile-social-networks">
                             <a class="mobile-networks-link" href="#">
                                 <svg class="mobile-logo-link" width="24" height="24">
-                                    <use href="./images/icons.svg#icon-linkedin-1"></use>
+                                    <use href="./images/icon/icons.svg#icon-linkedin-1"></use>
                                 </svg>
                             </a>
                         </li>
@@ -167,7 +167,7 @@ content="width=device-width, initial-scale=1.0" />
                 <li class="strategy">
                     <div class="container-svg">
                         <svg width="64" height="64">
-                            <use href="./images/icons.svg#icon-antenna-1"></use>
+                            <use href="./images/icon/icons.svg#icon-antenna-1"></use>
                         </svg>
                     </div>
                     <h3 class="strategy-list">Strategy</h3>
@@ -179,7 +179,7 @@ content="width=device-width, initial-scale=1.0" />
                 <li class="strategy">
                     <div class="container-svg">
                         <svg width="64" height="64">
-                            <use href="./images/icons.svg#icon-astronaut-1"></use>
+                            <use href="./images/icon/icons.svg#icon-astronaut-1"></use>
                         </svg>
                     </div>
                     <h3 class="strategy-list">Punctuality</h3>
@@ -191,7 +191,7 @@ content="width=device-width, initial-scale=1.0" />
                 <li class="strategy">
                     <div class="container-svg">
                         <svg width="64" height="64">
-                            <use href="./images/icons.svg#icon-clock-1"></use>
+                            <use href="./images/icon/icons.svg#icon-clock-1"></use>
                         </svg>
                     </div>
                     <h3 class="strategy-list">Diligence</h3>
@@ -203,7 +203,7 @@ content="width=device-width, initial-scale=1.0" />
                 <li class="strategy">
                     <div class="container-svg">
                         <svg width="64" height="64">
-                            <use href="./images/icons.svg#icon-diagram-1"></use>
+                            <use href="./images/icon/icons.svg#icon-diagram-1"></use>
                         </svg>
                     </div>
                     <h3 class="strategy-list">Technologies</h3>
@@ -399,14 +399,12 @@ content="width=device-width, initial-scale=1.0" />
 
                 <div class="container-images">
                     <picture>
-                        <source media="(min-width: 1200px)" srcset="../images/nazar.png 1x, ../images/how-its-made.jpg 2x">
-                        <source media="(min-width: 768px)" srcset="../images/olena.png 1x, ../images/how-its-made.jpg 2x">
-                        <source media="(max-width: 767px)" srcset="../images/viktoria.png 1x, ../images/how-its-made.jpg 2x">
-                        <img src="../images/semi-sweet.png" alt="semi-sweet">
-                    </picture>
-                    <img src="./images/model.jpg" alt="Banking App"
-                     width="360"
-                    height="300">
+                        <source media="(min-width: 1158px)" srcset="./images/portfolio/model.jpg 1x, ./images/portfolio/model@2x.jpg 2x">
+                        <source media="(min-width: 768px)" srcset="./images/portfolio/model-t.jpg 1x, ./images/portfolio/model-t@2x.jpg 2x">
+                        <source media="(max-width: 767px)" srcset="./images/portfolio/model-m.jpg 1x, ./images/portfolio/model-m@2x.jpg 2x">
+                        <img class="portfolio-images" src="./images/portfolio/model-m.jpg" alt="Banking App"
+                        width="288"
+                        height="280">
                     </picture>
                     <p class="paragraph">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
                                 Cloud Storage App</p>
@@ -421,10 +419,12 @@ content="width=device-width, initial-scale=1.0" />
             <li class="portfolio-list">
             
                 <div class="container-images">
-                    <img src="./images/nfc.jpg" alt="Cashless Payment"
-                    width="360"
-                    height="300"
-                    />
+                    <picture>
+                        <source media="(min-width: 1158px)" srcset="./images/portfolio/nfc.jpg 1x, ./images/portfolio/nfc@2x.jpg 2x">
+                        <source media="(min-width: 768px)" srcset="./images/portfolio/nfc-t.jpg 1x, ./images/portfolio/nfc-t@2x.jpg 2x">
+                        <source media="(max-width: 767px)" srcset="./images/portfolio/nfc-m.jpg 1x, ./images/portfolio/nfc-m@2x.jpg 2x">
+                        <img class="portfolio-images" src="./images/portfolio/nfc-m.jpg" alt="Cashless Payment" width="288" height="280">
+                    </picture>
                     <p class="paragraph">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic
                         Fruit Ecommerce App ·
                         Cloud Storage App</p>
@@ -437,10 +437,12 @@ content="width=device-width, initial-scale=1.0" />
             </li>
             <li class="portfolio-list">
                 <div class="container-images">
-                    <img src="./images/pc.jpg" alt="Meditation App"
-                    width="360"
-                    height="300"
-                    />
+                    <picture>
+                        <source media="(min-width: 1158px)" srcset="./images/portfolio/pc.jpg 1x, ./images/portfolio/pc@2x.jpg 2x">
+                        <source media="(min-width: 768px)" srcset="./images/portfolio/pc-t.jpg 1x, ./images/portfolio/pc-t@2x.jpg 2x">
+                        <source media="(max-width: 767px)" srcset="./images/portfolio/pc-m.jpg 1x, ./images/portfolio/pc-m@2x.jpg 2x">
+                        <img class="portfolio-images" src="./images/portfolio/pc-m.jpg" alt="Meditation App" width="288" height="280">
+                    </picture>
                     <p class="paragraph">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic
                         Fruit Ecommerce App ·
                         Cloud Storage App</p>
@@ -453,10 +455,12 @@ content="width=device-width, initial-scale=1.0" />
             </li>
             <li class="portfolio-list">
             <div class="container-images">
-                <img src="./images/auto.jpg" alt="Taxi Service"
-                width="360"
-                height="300"
-                />
+                <picture>
+                    <source media="(min-width: 1158px)" srcset="./images/portfolio/auto.jpg 1x, ./images/portfolio/auto@2x.jpg 2x">
+                    <source media="(min-width: 768px)" srcset="./images/portfolio/auto-t.jpg 1x, ./images/portfolio/auto-t@2x.jpg 2x">
+                    <source media="(max-width: 767px)" srcset="./images/portfolio/auto-m.jpg 1x, ./images/portfolio/auto-m@2x.jpg 2x">
+                    <img class="portfolio-images" src="./images/portfolio/auto-m.jpg" alt="Taxi Service" width="288" height="280">
+                </picture>
                 <p class="paragraph">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic
                     Fruit Ecommerce App ·
                     Cloud Storage App</p>
@@ -469,10 +473,12 @@ content="width=device-width, initial-scale=1.0" />
             </li>
             <li class="portfolio-list">
             <div class="container-images">
-                <img src="./images/phone.jpg" alt="Screen Illustrations"
-                width="360"
-                height="300"
-                />
+                <picture>
+                    <source media="(min-width: 1158px)" srcset="./images/portfolio/phone.jpg 1x, ./images/portfolio/phone@2x.jpg 2x">
+                    <source media="(min-width: 768px)" srcset="./images/portfolio/phone-t.jpg 1x, ./images/portfolio/phone-t@2x.jpg 2x">
+                    <source media="(max-width: 767px)" srcset="./images/portfolio/phone-m.jpg 1x, ./images/portfolio/phone-m@2x.jpg 2x">
+                    <img class="portfolio-images" src="./images/portfolio/phone-m.jpg" alt="Screen Illustrations" width="288" height="280">
+                </picture>
                 <p class="paragraph">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic
                     Fruit Ecommerce App ·
                     Cloud Storage App</p>
@@ -484,9 +490,12 @@ content="width=device-width, initial-scale=1.0" />
             </li>
             <li class="portfolio-list">
             <div class="container-images">
-                <img src="./images/women.jpg" alt="Online Courses"
-                width="360"
-                height="300" />
+                <picture>
+                    <source media="(min-width: 1158px)" srcset="./images/portfolio/women.jpg 1x, ./images/portfolio/women@2x.jpg 2x">
+                    <source media="(min-width: 768px)" srcset="./images/portfolio/women-t.jpg 1x, ./images/portfolio/women-t@2x.jpg 2x">
+                    <source media="(max-width: 767px)" srcset="./images/portfolio/women-m.jpg 1x, ./images/portfolio/women-m@2x.jpg 2x">
+                    <img class="portfolio-images" src="./images/portfolio/women-m.jpg" alt="Online Courses" width="288" height="280">
+                </picture>
                 <p class="paragraph">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic
                     Fruit Ecommerce App ·
                     Cloud Storage App</p>
@@ -503,7 +512,7 @@ content="width=device-width, initial-scale=1.0" />
 <!-- #endregion portfolio -->
 
 <!-- #region footer -->
-<footer class="footer-background hidden">
+<footer class="footer-background">
     <div class="container-footer">
         <div class="logo-paragraph">
             <a class="footer-logo" href="./index.html">Web<span class="text-raleway-footer">Studio</span></a>
@@ -519,28 +528,28 @@ content="width=device-width, initial-scale=1.0" />
         <li class="footer-social-networks">
             <a class="footer-networks-link" href="#">
                 <svg class="footer-logo-link" width="24" height="24">
-                    <use href="./images/icons.svg#icon-instagram-2"></use>
+                    <use href="./images/icon/icons.svg#icon-instagram-2"></use>
                 </svg>
             </a>
         </li>
         <li class="footer-social-networks">
             <a class="footer-networks-link" href="#">
                 <svg class="footer-logo-link" width="24" height="24">
-                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                    <use href="./images/icon/icons.svg#icon-twitter-1"></use>
                 </svg>
             </a>
         </li>
         <li class="footer-social-networks">
             <a class="footer-networks-link" href="#">
                 <svg class="footer-logo-link" width="24" height="24">
-                    <use href="./images/icons.svg#icon-facebook-1"></use>
+                    <use href="./images/icon/icons.svg#icon-facebook-1"></use>
                 </svg>
             </a>
         </li>
         <li class="footer-social-networks">
             <a class="footer-networks-link" href="#">
                 <svg class="footer-logo-link" width="24" height="24">
-                    <use href="./images/icons.svg#icon-linkedin-1"></use>
+                    <use href="./images/icon/icons.svg#icon-linkedin-1"></use>
                 </svg>
             </a>
         </li>
@@ -558,7 +567,7 @@ content="width=device-width, initial-scale=1.0" />
         </label>
         <button class="button-footer" type="submit">Subscribe
             <svg class="icon-link" width="24" height="24">
-                <use href="./images/icons.svg#icon-pointer"></use>
+                <use href="./images/icon/icons.svg#icon-pointer"></use>
             </svg>
         </button>
     </form>
